@@ -70,6 +70,10 @@ If you feel there is still some sort of code disaster brewing from the design de
 
 Continue carefully through the designs and plan out all solutions for the design. Do not rush or be careless but maintain a pride and consistency that a code poet would have. Your code is a reflection of you and you should be proud of it. As I continue I turn on modules and make decisions for each and every design element.
 
+## Templates
+
+Now we want to begin modeling our templates. This is the time to break out a pen and paper and begin sketching the sites pieces.
+
 ## Content Types
 
 After I believe I have accounted for every module that I will need I then make a list of content types I believe I will need. Remember that every content type should be singular because it is the blueprint by which we make nodes. An Event content type is used to create an event so logically this should be singular.
@@ -86,7 +90,21 @@ Looking at the above design we can see multiple image galleries. This design tel
 
 We have another design which shows a page of videos. This would tell us that we will have a content type of Video and this is a Videos view.
 
-However we notice that both designs have similar styles and the content images and videos are very similar in what they are, which is Media. We can refactor our content type theory then to have a content type of Media and add a field to Media which will delineate whether or not it is an image or video. This way we have a cleaner and more linear process for the end user for creating Media.
+However, we notice that both designs have similar styles and the content images and videos are very similar in what they are, which is Media. We can refactor our content type theory then to have a content type of Media and add a field to Media which will delineate whether or not it is an image or video. This way we have a cleaner and more linear process for the end user for creating Media.
+
+Let us imagine how things could break or get kludgy. An end user could create a Media node and upload images and a video, maybe they think they can put both on one node. We want a solution to red rope them into success.
+
+Ideally here we want a condition where we would only show the image upload field when Image is checked from the type feild or show a youtube field when Video is checked. Now we google "conditional fields" since we want fields which are conditional on the value of another. Our google search quickly shows https://www.drupal.org/project/conditional_fields.
+
+Read the README.txt from the module, read the module page and documentation. I cannot stress this enough! Never just install and start clicking.
+
+After I did that I found that we already have the module in our stack, turned it on and programmed the logic for the conditions. Now when someone creates a Media node they must choose a Media Type of Image or Video before they even see the fields for those types.
+
+![](http://i.imgur.com/906QZx2.png)
+
+![](http://i.imgur.com/ebWW5NW.png)
+
+
 
 
 
