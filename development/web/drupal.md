@@ -74,6 +74,14 @@ Continue carefully through the designs and plan out all solutions for the design
 
 Now we want to begin modeling our templates. This is the time to break out a pen and paper and begin sketching the sites pieces.
 
+![](http://i.imgur.com/Ytfz8Ql.jpg)
+
+Sketching the architecture of the design will help you conceptualize the proper way to code the template as well as increase your knowledge of the sites design.
+
+What we strive for is to encompass all our designs pages while not making the page.tpl.php file a cluster. We don't want a template override for every content type.
+
+Now we write modern markup in a template to serve the needs of the project.
+
 ## Content Types
 
 After I believe I have accounted for every module that I will need I then make a list of content types I believe I will need. Remember that every content type should be singular because it is the blueprint by which we make nodes. An Event content type is used to create an event so logically this should be singular.
@@ -104,6 +112,11 @@ After I did that I found that we already have the module in our stack, turned it
 
 ![](http://i.imgur.com/ebWW5NW.png)
 
+## Refactor!
+
+Now go back and review the design. Again, go page by page and review if anything new stands out. Check your template and refactor the markup. Check your content types and make sure you have a content type that addresses each peice of content in the design. Refactor your content types, maybe you can remove one and combine it into another like we did above with Images and Videos. Go into each content type and compare the fields with the designs and refactor your fields.
+
+It is super important to take your time here. The planning process shouldn't be rushed but instead relished as a stage of first evolution and then perfection. The next stage is writing any functional code (javascript etc) and custom drupal modules. If all the planning and architecture was done correctly then after the custom code is done the entire site will be ready for content and will function properly.
 
 
 
