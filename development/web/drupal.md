@@ -38,4 +38,10 @@ After you have chosen the appropriate platform now we want to go into deeper det
 
 I begin by asking myself how this element will function in the site and what is the best solution to implement the design. Since the content here is unlikely to change and has been constant for years (this is a legacy client with years of history with us) I will decide to bake it in to page.tpl.php. This will reduce block clutter as I estimate that a site of this size will have a healthy amount of blocks. This solution could be revisited during the refactor phase but will most likely be an acceptable solution here.
 
-![](http://i.imgur.com/OICI3cM.png)
+![](http://i.imgur.com/57A8Llt.png)
+
+The next element is the logo and I begin by asking myself what standards does this element demand? I know that this element should have 2 versions, one for normal screens and one for retina display so I need to plan accordingly. Knowing that the site logo can be implemented through the theme I google solutions for ‘drupal theme logo retina module’ to see if there is anything to solve this. I won’t spend more than 10-15 minutes searching for such a solution. There were no modules so I will plan on solving this by baking in a logo div in the page.tpl.php which will then have CSS solutions for loading the retina version on mobile.
+
+An issue like this is a perfect example of a need for coding a module. Every site we do will likely need a normal and retina logo so a module would be awesome to have for this solution. You are a Drupal Dev so make it! Publishing a contrib module will make you look like a badass and will help the Drupal community as a whole.
+
+![](http://i.imgur.com/Bp6dVq2.png)
