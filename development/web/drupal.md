@@ -118,36 +118,19 @@ Now go back and review the design. Again, go page by page and review if anything
 
 It is super important to take your time here. The planning process shouldn't be rushed but instead relished as a stage of first evolution and then perfection. The next stage is writing any functional code (javascript etc) and custom drupal modules. If all the planning and architecture was done correctly then after the custom code is done the entire site will be ready for content and will function properly.
 
+## More Functionality
 
+After refactoring and cleaning up any kludge we jump back into functionality. For this project I need Drupal Commerce and instead of just jumping into creating stuff I instead pause and go read the manual. First I read the README.txt that comes with the module, this will sometimes cover what we need but often we will have to go read other documentation. After some google searches I found this https://drupalcommerce.org/user-guide/ which goes over all the details about using Drupal Commerce.
 
+After reading this I begin testing and sketching out schemas for our architecture.
 
+![](http://i.imgur.com/x5ucFt4.jpg)
 
+After I am comfortable with Drupal Commerce and have a good idea about the structure then I go back and check the designs.
 
+![](http://i.imgur.com/NZxeh6b.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Our design shows us that we should split the products into Guitars, Basses, Amps, Pro Audio and Accessories. We could even check out the old site and ask the designer for more information to verify that this is correct.
 
 
 
