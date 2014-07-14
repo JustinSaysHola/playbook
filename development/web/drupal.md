@@ -132,6 +132,8 @@ After I am comfortable with Drupal Commerce and have a good idea about the struc
 
 Our design shows us that we should split the products into Guitars, Basses, Amps, Pro Audio and Accessories. We could even check out the old site and ask the designer for more information to verify that this is correct.
 
+Next I would need to figure out all the feilds each type will need and then intergrate them into a content type.
+
 
 
 
