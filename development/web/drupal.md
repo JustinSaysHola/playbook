@@ -12,7 +12,7 @@ Clients > Name of client > nameofclient.com > Designs > Originals
 
 *See a designer if you cannot find the project.*
 
-As a developer it is important for you to slow down and take the time to look at all the designs and begin mentally planning your attack. Diving into a project without thoroughly becoming antiquated with the design and structure will slow you down and lead to problems down the road. Slow down and pay attention to detail,
+As a developer it is important for you to slow down and take the time to look at all the designs and begin mentally planning your attack. Diving into a project without thoroughly becoming acquainted with the design and structure will slow you down and lead to problems down the road. Slow down and pay attention to detail,
 slow down and pay attention to detail,
 slow down and pay attention to detail.
 
