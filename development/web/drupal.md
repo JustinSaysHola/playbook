@@ -36,7 +36,7 @@ After you have chosen the appropriate platform now we want to go into deeper det
 
 ![](http://i.imgur.com/OICI3cM.png)
 
-I begin by asking myself how this element will function in the site and what is the best solution to implement the design. Since the content here is unlikely to change and has been constant for years (this is a legacy client with years of history with us) I will decide to bake it in to page.tpl.php. This will reduce block clutter as I estimate that a site of this size will have a healthy amount of blocks. This solution could be revisited during the refactor phase but will most likely be an acceptable solution here.
+I begin by asking myself how this element will function in the site and what is the best solution to implement the design. Since the content here is unlikely to change I will decide to bake it in to page.tpl.php. This will reduce block clutter as I estimate that a site of this size will have a healthy amount of blocks. This solution could be revisited during the refactor phase but will most likely be an acceptable solution here.
 
 ![](http://i.imgur.com/57A8Llt.png)
 
